@@ -1,6 +1,6 @@
 # AliasMethod
 
-[![Elixir CI](https://github.com/thara/elixir_alias_method/actions/workflows/elixir.yml/badge.svg)](https://github.com/thara/elixir_alias_method/actions/workflows/elixir.yml) 
+![Hex.pm](https://img.shields.io/hexpm/v/alias_method) [![Elixir CI](https://github.com/thara/elixir_alias_method/actions/workflows/elixir.yml/badge.svg)](https://github.com/thara/elixir_alias_method/actions/workflows/elixir.yml) 
 
 Implementation of Walker's Alias method by Elixir.
 The algorithm is principally useful when you need to random sampling with replacement by O(1).
