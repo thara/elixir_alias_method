@@ -29,6 +29,10 @@ defmodule AliasMethod.MixProject do
   end
 
   defp package do
-    [maintainers: ["thara"], licenses: ["MIT"]]
+    [
+      maintainers: ["thara"],
+      licenses: ["MIT"],
+      links: %{"Github" => "https://github.com/thara/elixir_alias_method"}
+    ]
   end
 end
