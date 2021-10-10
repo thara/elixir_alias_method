@@ -15,9 +15,15 @@ defmodule AliasMethod do
   """
   alias AliasMethod.Table
 
+  @doc """
+    Generate Table by weights.
+  """
   @spec generate_table(list(float)) :: Table.t()
   def generate_table(weights), do: Table.generate(weights)
 
+  @doc """
+    Choice a index from passed Table at random.
+  """
   @spec choice(Table.t()) :: integer
   def choice(table), do: Table.choice(table)
 end
