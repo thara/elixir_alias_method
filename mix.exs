@@ -30,8 +30,6 @@ defmodule AliasMethod.MixProject do
   end
 
   defp package do
-    [ maintainers: ["thara"],
-      licenses: ["MIT"]
-    ]
+    [maintainers: ["thara"], licenses: ["MIT"]]
   end
 end
