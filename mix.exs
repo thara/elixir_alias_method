@@ -24,7 +24,9 @@ defmodule AliasMethod.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:credo, "~> 1.5", only: [:dev, :test], runtime: false}
+      {:credo, "~> 1.5", only: [:dev, :test], runtime: false},
+      {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
+      {:earmark, ">= 0.0.0", only: :dev, runtime: false},
     ]
   end
 
