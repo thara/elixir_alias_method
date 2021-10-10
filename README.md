@@ -5,6 +5,16 @@
 Implementation of Walker's Alias method by Elixir.
 The algorithm is principally useful when you need to random sampling with replacement by O(1).
 
+## Installation
+
+```elixir
+def deps do
+  [
+    {:alias_method, "~> 0.1.0"}
+  ]
+end
+```
+
 ## Example
 
 ```elixir
